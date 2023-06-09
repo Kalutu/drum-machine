@@ -1,8 +1,11 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 #drum-machine{
     padding-top: 50px;
+    overflow: hidden;
 }
 #display {
     margin:0 auto;
@@ -10,4 +13,10 @@
     background-color: rgb(212, 208, 208);
     border-radius: 10px;
     padding: 20px;
+}
+
+@media (max-width:555px){
+    #display{
+        width: 80%;
+    }
 }
