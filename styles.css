@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+#drum-machine{
+    padding-top: 50px;
+}
+#display {
+    margin:0 auto;
+    width: 60%;
+    background-color: rgb(212, 208, 208);
+    border-radius: 10px;
+    padding: 20px;
+}

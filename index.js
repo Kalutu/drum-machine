@@ -77,8 +77,8 @@
         }
 
         return (
-          <div className="bg-info min-vh-100 text-white">
-            <div className="text-center">
+          <div className="bg-info min-vh-100 text-black" id="drum-machine">
+            <div className="text-center" id="display">
               <h2>Drum Machine</h2>
               {audioClips.map((clip) => (
                 <Pad key={clip.id} clip={clip}volume={volume} setRecording={setRecording}/>
@@ -97,6 +97,7 @@
                 </>
               }
             </div>
+            <h5 className="text-center mt-5">By Kalutu Daniel</h5>
           </div>
         );
       }
