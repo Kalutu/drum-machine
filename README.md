@@ -2,7 +2,7 @@
 This is a drum machine application built using React. It allows users to play different audio clips by clicking on buttons or using keyboard keys. The application also provides options to adjust the volume and record/playback custom sequences.
 
 ## Preview
-![Drum Machine preview](img/drum-machine.jpg)
+![Drum Machine preview](public/img/drum-machine.jpg)
 
 ## Installation
 1. Clone the repository or download the source code.
